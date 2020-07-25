@@ -124,7 +124,7 @@ header - to specify header parameters, for example Authorization token.
 Karate it's a API BDD test automation framework. It use Gherkin language to write tests. No coding is required to create test, you just need to write feature file with scenarios or scenario outlines. Karate seats on top of Cucumber BDD, that's why feature file syntax is the same. Karate use Nashorn engine for running javascript. It's already deprecated, that's why you are getting this warning: Warning: Nashorn engine is planned to be removed from a future JDK release.
 
 
-
+this simle test for git
 
 
 
