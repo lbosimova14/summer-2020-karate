@@ -14,6 +14,7 @@ Feature: bookit tests
     Given path '/api/rooms'
     When method get
     Then status 401
+    # we expecting 401 but is 422 it is bug
 
 #/sign?email=teacherva5@gmail.com&password=maxpayne
 

@@ -14,6 +14,7 @@ Feature: practice with spartan app
   Scenario: Add new spartan and verify status code 201
     Given path '/api/spartans'
     * def spartan =
+    #this a body
     """  
       {
       "name": "Karate_Master",
@@ -36,6 +37,8 @@ Feature: practice with spartan app
   @add_spartan_with_external_json
   Scenario: Add new spartan by reading external JSON payload
     Given path '/api/spartans'
+    #C:\Users\laylo\IdeaProjects\summer-2019-online-karate\src\test\java\test_data\payloads
+    #test_data\payloads\spartan.json
     * def spartan = read('../test_data/payloads/spartan.json')
     * request spartan
     When method post
